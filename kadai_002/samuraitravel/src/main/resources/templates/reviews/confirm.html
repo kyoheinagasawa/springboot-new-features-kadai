@@ -25,7 +25,7 @@
                                 </ol>
                             </nav>
             
-                            <h1 class="mb-4 text-center">予約内容確認</h1>
+                            <h1 class="mb-4 text-center">レビュー内容確認</h1>
                                         
                             <form method="post" th:action="@{/houses/__${house.Id}__/reviews/create}" th:object="${reviewRegisterForm}">
                                 <input type="hidden" th:field="*{houseId}">
